@@ -1,48 +1,77 @@
+/* General Body Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #2c3e50;
+    color: #ffffff;
+    padding: 2rem 0;
     text-align: center;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 2rem 0;
-}
-
+/* Section Styles */
 section {
-    background: #fff;
+    background: #ffffff;
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Heading Styles */
 h2 {
-    color: #0066cc;
-    border-bottom: 2px solid #eee;
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
     padding-bottom: 5px;
 }
 
+/* Profile Image Styles */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+/* List Styles */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
-ul li {
-    margin-bottom: 15px;
+li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
 }
 
+/* Link Styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
 footer {
     text-align: center;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    margin-top: 40px;
+    padding: 1rem 0;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
 }
