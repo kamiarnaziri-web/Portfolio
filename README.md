@@ -1,6 +1,6 @@
 Portfolio Website
 Welcome to my GitHub repository! This repository contains the various projects, assignments, and practical exercises I have completed throughout my web development course.
-🚀 Projects Overview
+ Projects Overview
 Here is a summary of the key projects included in my coursework:
 Portfolio Website Description: A fully responsive personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.
 Live Demo: https://kamiarnaziri-web.github.io/Portfolio/
